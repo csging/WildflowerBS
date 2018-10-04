@@ -1,0 +1,66 @@
+body{
+    background: lavender;
+}
+#header {
+    background: lavender;
+    color: darkred;
+
+
+}
+
+#main-nav {
+    background: cornflowerblue;
+    color: white;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+}
+
+.navbar .nav-item.active {
+    border-left: #444 1px solid;
+}
+
+body {
+    overflow-x: hidden;
+}
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: slateblue;
+    background-size: cover;
+}
+.carousel-image-2 {
+    background: royalblue;
+    background-size: cover;
+}
+.carousel-image-3 {
+    background: teal;
+    background-size: cover;
+}
+
+#buttons.btn {
+    background: pink;
+}
+#info, #buttons{
+    text-align: center;
+    background: lavender;
+}
+#news  {
+    position: relative;
+    min-height: 200px;
+    background: skyblue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}
+#main-footer {
+    background: rgb(228, 231, 233);
+}
