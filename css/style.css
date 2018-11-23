@@ -69,4 +69,8 @@ body {
     background: rgb(228, 231, 233);
 }
 /* Start http://www.cursors-4u.com */ 
-/* * {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat946.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat946.png), auto !important;} End http://www.cursors-4u.com */
+* {cursor: 
+    /* url(http://cur.cursors-4u.net/nature/nat-10/nat946.ani),  */
+    url(http://cur.cursors-4u.net/nature/nat-10/nat946.png), 
+    auto !important;} 
+/* End http://www.cursors-4u.com */
