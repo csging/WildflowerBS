@@ -1,19 +1,29 @@
 body{
-    background: lavender;
-}
-#header {
-    background: lavender;
-    color: darkred;
-
+    background: rgb(255, 255, 255);
+    padding-top: 100px;
 
 }
+#first .container {
+    background: #A39067;
+    color: #FFFFFF;
+    margin: 0px;
 
-#main-nav {
+}
+
+
+
+.navbar {
     
     color: white;
+    background-color: #A39067;
+    background: #A39067;
 }
 
-#main-nav.nav-item.active {
+.navbar-default {
+    background-color: #A39067;
+    border-color: #A39067;
+}
+#main-nav .nav-item.active {
     color: lightgray;
 }
 
@@ -36,25 +46,43 @@ body {
     height: 450px;
 }
 
-.carousel-image-1 {
-    background: slateblue;
+.bluebells {
+    background: url("/img/Bluebells.png");
     background-size: cover;
+    padding: 18rem;
+}
+.carousel-image-1 {
+    /* background: slateblue; */
+    /* background-image: url("/img/Bluebells.png"); */
+    background: #F5F9F9;
+    height: 122px;
+    /* background-color:rgb(27, 25, 25); */
+    /* background-size: cover; */
 }
 .carousel-image-2 {
-    background: royalblue;
-    background-size: cover;
+    /* background: royalblue; */
+    /* background-image: url("/img/Bluebells.png"); */
+    height: 122px;
+    background: #F5F9F9;
+    /* background-color:rgb(27, 25, 25); */
+    /* background-size: cover; */
 }
 .carousel-image-3 {
-    background: teal;
-    background-size: cover;
+    /* background: teal; */
+    /* background-image: url("/img/Bluebells.png"); */
+    height: 122px;
+    background: #F5F9F9;
+    /* background-color:rgb(27, 25, 25); */
+    /* background-size: cover; */
 }
 
 #buttons.btn {
     background: pink;
 }
+
 #info, #buttons{
     text-align: center;
-    background: lavender;
+    background: rgb(253, 253, 253);
 }
 #news  {
     position: relative;
@@ -66,11 +94,34 @@ body {
     color: black;
 }
 #main-footer {
-    background: rgb(228, 231, 233);
+    background: #0F3544;
+    background-color: #234654
 }
-/* Start http://www.cursors-4u.com */ 
 * {cursor: 
-    /* url(http://cur.cursors-4u.net/nature/nat-10/nat946.ani),  */
+    url(http://cur.cursors-4u.net/nature/nat-10/nat946.ani), 
     url(http://cur.cursors-4u.net/nature/nat-10/nat946.png), 
     auto !important;} 
-/* End http://www.cursors-4u.com */
+
+#headImg {
+    margin: 10px 0px 10px 10px;
+    height: 122px;
+}
+/* .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ } */
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* height: 100px;
+  width: 100px; */
+  outline: black;
+  /* background-size: 100%, 100%; */
+  /* border-radius: 50%; */
+  /* border: 1px solid black; */
+  /* background-image: none; */
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
