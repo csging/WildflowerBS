@@ -15,34 +15,33 @@
 </head>
 
 <body>
-<!-- Header -->
-<!-- 
-<div class="d-flex justify-content-between bg-secondary mb-3">
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
-  </div> -->
-
-  <div class="fixed-top" data-toggle="affix">
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container">
-        <div class="row"> 
+<!-- Header --> 
+<div class="header fixed-top" data-toggle="affix">
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="row">
+      <div class=" col-md-6">
         <a href="#">
               <img class="img-fluid" id="headImg" src="./img/HC.png" alt="Womens Group">
             </a>
           <button class="navbar-toggler mt-1" type="button" data-toggle="collapse" data-target="#navbarCollapse">
               <span class="navbar-toggler-icon"></span>
           </button>
-          </div>
-          <div class="row">
-          <div class="collapse navbar-collapse flex-column align-items-start ml-lg-2 ml-0" id="navbarCollapse">
-              <span class="navbar-text ml-auto py-0 px-lg-2">(00) 1234 5678</span>
-              
+      </div>
+          <div class="col-md-6">
+          <div class="collapse navbar-collapse align-items-center" id="navbarCollapse">
+              <h3 class="navbar-text ml-auto">(214) 234-5678</h3>
+              </div>
+        </div>
+
+  <div class="row">
+      <div class="col-md-12 col-md-6">
+
               <ul class="navbar-nav ml-auto nav-expand w-100" id="second">
                   <li class="nav-item">
                     <a href="#home" class="nav-link active">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="dropdown-toggle" type="button" data-toggle="dropdown">
                       About Us
                   </button>
                     <div class="dropdown-menu">
@@ -54,7 +53,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class=" dropdown-toggle" type="button" data-toggle="dropdown">
                       Services
                   </button>
                     <div class="dropdown-menu">
@@ -66,7 +65,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="  dropdown-toggle" type="button" data-toggle="dropdown">
                       Patient Resources
                   </button>
                     <div class="dropdown-menu">
@@ -78,7 +77,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="  dropdown-toggle" type="button" data-toggle="dropdown">
                       Patient Portal
                   </button>
                     <div class="dropdown-menu">
@@ -90,7 +89,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="  dropdown-toggle" type="button" data-toggle="dropdown">
                       Education
                   </button>
                     <div class="dropdown-menu">
@@ -102,7 +101,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="  dropdown-toggle" type="button" data-toggle="dropdown">
                       Procedures
                   </button>
                     <div class="dropdown-menu">
@@ -114,7 +113,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class="  dropdown-toggle" type="button" data-toggle="dropdown">
                       News
                   </button>
                     <div class="dropdown-menu">
@@ -126,7 +125,7 @@
                     </div>
                   </li>
                   <li class="nav-item dropdown">
-                    <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                    <button class=" dropdown-toggle" type="button" data-toggle="dropdown">
                       Locations
                   </button>
                     <div class="dropdown-menu">
@@ -137,152 +136,19 @@
                       <a class="dropdown-item" href="#">Careers</a>
                     </div>
                   </li>
-      
                 </ul>
+
           </div>
-          </div>
+        </div>
+
       </div>
   </nav>
   </div>
 
-
-<!-- <div class="fixed-top" data-toggle="affix">
-  
-<div class="navbar navbar-expand-sm navbar-light py-2 align-items-start" id="first">
-
-        <div class="d-flex row-hl align-items-center flex-row">
-              <a href="#">
-              <img class="img-fluid" id="headImg" src="./img/HC.png" alt="Womens Group">
-            </a>
-
-            <div class="p-2 item-hl">
-
-                <div class=" text-right">
-                    <h2>214.492.8008</h2>
-                  40 walnut Blvd, Suite 500, Dallas, Texas 60062 - 
-                  <a href="#">Get Directions</a></p>
-                  </div>
-              </div>
-        </div>
-
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-        </div>
-  
-        <div id="navbar-collapse" class="collapse navbar-collapse">
-
-        <ul class="navbar-nav ml-auto nav-expand w-100" id="second">
-            <li class="nav-item">
-              <a href="#home" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                About Us
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="/providers.html">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                Services
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                Patient Resources
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                Patient Portal
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                Education
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                Procedures
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                News
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
-                Locations
-            </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Our Providers</a>
-                <a class="dropdown-item" href="#">Your Local Hospital</a>
-                <a class="dropdown-item" href="#">Insurances Accepted</a>
-                <a class="dropdown-item" href="#">Patient Privacy</a>
-                <a class="dropdown-item" href="#">Careers</a>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-</div> -->
-
 <!-- BLUEBELLS -->
-<section id="bluebells" class="bluebells">
-  <div id="bluebells" class="container"><img src="" alt=""></div>
-</section>
+<div class="bluebells valign-wrapper">
+    <div class="parallax"><img src="img/Bluebells.png" alt="Unsplashed background img 2"></div>
+  </div>
 
  <!-- BUTTONS -->
  <div id="buttons" class="py-3">
