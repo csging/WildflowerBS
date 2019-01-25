@@ -171,7 +171,7 @@
 
  
 <!-- ABOUT US -->
-<section id="info" class="py-3">
+
     <section id="info" class="py-3">
         <div class="container">
           <div class="row">
@@ -187,22 +187,21 @@
           </div>
         </div>
       </section>
-  </section>  
+ 
 <!-- SERVICES -->
+<section id="info" class="py-3">
 <div id="accordion">
-
-  <div class="container">
           <h3 class="text-center">Services Provided</h3>
           <h4 class="text-center">In Office</h4>
     <div class="card">
               <div class="card-header">
                 <h5 class="mb-0 text-center">
-                  <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                  <div href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
                   Well Exam
                   </div>
                 </h5>
               </div>
-              <div id="collapse1" class="collapse">
+              <div id="collapseOne" class="collapse">
                 <div class="card-body text-center">This preventative exam is usually done yearly to access vital information such as weight, blood pressure and height.  An exam is done to access thyroid, lungs, heart, breast, abdomen and pelvis looking for signs of problems and addressing them. 
               </div>
             </div>
@@ -211,12 +210,12 @@
           <div class="card">
             <div class="card-header">
               <h5 class="mb-0 text-center">
-                <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                <div href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">
                 PAP Smear
                 </div>
               </h5>
             </div>
-            <div id="collapse2" class="collapse">
+            <div id="collapseTwo" class="collapse">
               <div class="card-body text-center">Cells are scraped from the cervix and sent to a lab to detect cervical cancer and pre-cancer.
             </div>
           </div>
@@ -225,12 +224,12 @@
         <div class="card">
           <div class="card-header">
             <h5 class="mb-0 text-center">
-              <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+              <div href="#collapseThree" data-toggle="collapse" data-parent="#accordion">
               Colposcopy
               </div>
             </h5>
           </div>
-          <div id="collapse3" class="collapse">
+          <div id="collapseThree" class="collapse">
             <div class="card-body text-center">Viewing the cervix with magnification to perform biopsies, looking for precancerous cells. 
           </div>
         </div>
@@ -392,13 +391,7 @@
           </div>
         </div>
       </div>
-
         </div>
-        </div>
-        </div>
-      </div>
-    </div>
-
   </section>
 
 <!-- EDUCATION -->
@@ -523,32 +516,13 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-    <script>
-        // function initMap() {
-        //   var baylor = {lat: 33.221238, lng: -96.681316};
-        //   var family = {lat: 33.197886, lng: -96.640608};
-        //   var map = new google.maps.Map(
-        //       document.getElementById('baylor'), {zoom: 12, center: baylor});
-        //   var marker = new google.maps.Marker({position: baylor, map: map});
-          
-        //   var map1 = new google.maps.Map(
-        //       document.getElementById('family'), {zoom: 12, center: family});
-        //   // var marker1 = new google.maps.Marker({position: family, map: map1});
-        // }
-            </script>
+    
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgrhWoO-ZhW2EfFK3anYK_pt_MIyWOSfc&callback=initMap">
     </script>
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
-     //Carousel
-     $('.carousel').carousel({
-      interval: 6000,
-      pause: 'hover'
-    });
-  </script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 </body>
 
 </html>
