@@ -233,7 +233,9 @@ background: #A39067;
 }
 
 @media only screen and (max-width: 320px) {
-
+    .bluebells {
+        margin-top: 135px; 
+      }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
