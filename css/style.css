@@ -5,16 +5,21 @@ body{
 }
 .header {
     margin: 10px 10px 10px;
-    background-color: #A39067;
-    background: #A39067;
+    background-color: black;
+    background: black;
     color: lightgray;
 }
 #first .container {
-    background: #A39067;
+    background: black;
     color: #FFFFFF;
     margin: 0px;
 
 }
+
+body > div.header.fixed-top.mx-auto > div > nav > div {
+    width: 100%;
+}
+
 .border-top {
     width: 100%
 }
@@ -25,7 +30,7 @@ body{
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
-    margin-top: 110px; 
+    margin-top: -20px; 
     width: 100%
   }
 
@@ -87,6 +92,7 @@ body {
 .bluebells {
     position: relative;
     overflow: hidden;
+    /* display: sticky; */
     height: 500px;
 }
 .carousel-image-1 {
@@ -244,36 +250,60 @@ background: #A39067;
       }
     
 }
+@media only screen and (min-width: 481px) and (max-width: 576px) {
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
     .bluebells {
-        margin-top: 70px; 
+        margin-top: 78px; 
+        margin-bottom: -170px;
+      }
+      body > div.header.fixed-top.mx-auto > div > nav > div > div.col-md-6.col-xs-12.float-sm-right {
+          justify-content: center;
+          display: inline-block
+      }
+      body > div.header.fixed-top.mx-auto > div > nav {
+          display: inline-block;
       }
 }
+
+@media only screen and (min-width: 471px) and (max-width: 576px) {
+
+}
+
 @media only screen and (min-width: 768px) and (max-width: 860px) {
     .bluebells {
-        margin-top: 35px; 
+        margin-top: -20px; 
+        margin-bottom: -120px;
+      }
+      
+      body > div.header.fixed-top.mx-auto > div > nav > div > span {
+          width: 100%;
       }
 }
 
 @media only screen and (min-width: 861px) and (max-width: 991px) {
     .bluebells {
-        margin-top: 15px; 
+        margin-top: -20px; 
+        margin-bottom: -70px;
+      }
+      body > div.header.fixed-top.mx-auto > div > nav > div {
+          width: 100%;
       }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1023px) {
     .bluebells {
-        margin-top: 5px; 
+        margin-top: -20px; 
+        margin-bottom: -50px;
       }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1224px) {
     .bluebells {
-        margin-top: -10px; 
+        margin-top: -120px; 
       }
 }
 @media only screen and (min-width: 1224px) {
-
+   
 }
 
 @media only screen and (min-width: 1824px) {
