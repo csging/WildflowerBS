@@ -257,7 +257,6 @@ background: #A39067;
       }
     
 }
-@media only screen and (min-width: 481px) and (max-width: 576px) {
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
     .bluebells {
@@ -306,15 +305,8 @@ background: #A39067;
         margin-bottom: -50px;
       }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+@media only screen and (min-width: 1024px) {
     .bluebells {
         margin-top: -120px; 
       }
-}
-@media only screen and (min-width: 1224px) {
-   
-}
-
-@media only screen and (min-width: 1824px) {
-
-}
+    }
