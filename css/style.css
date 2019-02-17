@@ -24,6 +24,10 @@ body > div.header.fixed-top.mx-auto > div > nav {
 body > div.header.fixed-top.mx-auto > div > nav > div {
     width: 100%;
 }
+body > div.header.fixed-top.mx-auto > div > nav > div > div:nth-child(1) > a > h2 {
+    font-family: 'Felipa', cursive;
+    color: white;
+}
 
 .border-top {
     width: 100%
