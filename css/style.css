@@ -128,6 +128,9 @@ body {
     /* background-size: cover; */
 }
 
+#accordion > h3.text-center.services {
+    /* border-bottom: 2px solid; */
+}
 .mapSection {
     background-color: #F5F9F9;
     background: #F5F9F9
